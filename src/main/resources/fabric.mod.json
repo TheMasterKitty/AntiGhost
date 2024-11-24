@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "antighost",
+	"version": "Release",
+	"name": "AntiGhost",
+	"description": "Automatically re-updates your inventory in an attempt to prevent / minimize ghosting",
+	"authors": [
+		"TheMasterKitty"
+	],
+	"contact": {
+		"discord": "https://discord.gg/sCVM6h2By4"
+	},
+	"icon": "assets/antighost/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"themasterkitty.antighost.Main"
+		]
+	},
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": [ "1.21.x", "1.20.x", "1.19.x", "1.18.x", "1.17.x", "1.16.x", "1.15.x", "1.14.x" ],
+		"fabric-api": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.discord": "https://discord.gg/sCVM6h2By4"
+			}
+		}
+	}
+}
